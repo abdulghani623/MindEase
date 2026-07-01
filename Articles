@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Articles - MindEase</title>
+</head>
+<body>
+
+<h1>MindEase Articles</h1>
+
+<ul>
+    <li><a href="articles/anxiety.html">Anxiety Symptoms and Treatment</a></li>
+
+    <li><a href="articles/depression.html">Depression Warning Signs</a></li>
+
+    <li><a href="articles/stress.html">How to Reduce Stress Naturally</a></li>
+
+    <li><a href="articles/panic-attacks.html">Understanding Panic Attacks</a></li>
+</ul>
+
+</body>
+</html>
