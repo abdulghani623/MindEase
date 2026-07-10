@@ -1,169 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>MindEase – Mental Health Education & AI Support | Founded by Abdul Ghani</title>
-<meta name="description" content="MindEase provides free evidence-based mental health education for anxiety, depression, PTSD, OCD, bipolar disorder and more. Available in 31 languages. Founded by Abdul Ghani.">
-<meta name="keywords" content="mental health, anxiety, depression, PTSD, OCD, bipolar disorder, CBT, mindfulness, stress management, burnout, therapy">
-<meta name="author" content="Abdul Ghani">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Mental Health Blog – Evidence-Based Articles | MindEase</title>
+<meta name="description" content="Read evidence-based articles on anxiety, depression, CBT, mindfulness, stress, sleep and burnout. Free mental health education by MindEase, founded by Abdul Ghani.">
+<meta name="keywords" content="mental health blog, anxiety articles, depression guide, CBT techniques, mindfulness, stress management, burnout signs, sleep quality">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://www.mindease.app/">
+<link rel="canonical" href="https://www.mindease.app/blog/index.html">
+<meta property="og:title" content="Mental Health Blog | MindEase">
+<meta property="og:description" content="Evidence-based articles on anxiety, depression, CBT, mindfulness and more.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.mindease.app/">
-<meta property="og:title" content="MindEase – Mental Health Education & Support">
-<meta property="og:description" content="Free evidence-based mental health education for anxiety, depression, PTSD and more. 31 languages. Founded by Abdul Ghani.">
-<meta property="og:image" content="https://www.mindease.app/images/og.png">
-<meta property="og:site_name" content="MindEase">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MindEase – Mental Health Education">
-<meta name="twitter:description" content="Free evidence-based mental health education. 31 languages. Founded by Abdul Ghani.">
-<meta name="twitter:image" content="https://www.mindease.app/images/og.png">
-<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<meta property="og:url" content="https://www.mindease.app/blog/index.html">
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 <meta name="theme-color" content="#0D1B2A">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"MindEase","url":"https://www.mindease.app","logo":"https://www.mindease.app/images/favicon.svg","description":"Free mental health education platform","founder":{"@type":"Person","name":"Abdul Ghani"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"MindEase","url":"https://www.mindease.app","potentialAction":{"@type":"SearchAction","target":"https://www.mindease.app/blog/index.html?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Blog","name":"MindEase Mental Health Blog","url":"https://www.mindease.app/blog/","description":"Evidence-based mental health education articles","publisher":{"@type":"Organization","name":"MindEase","founder":{"@type":"Person","name":"Abdul Ghani"}}}
+</script>
 </head>
 <body>
 <div id="progress-bar" aria-hidden="true"></div>
 <a class="skip-link" href="#main">Skip to content</a>
 <nav class="navbar" role="navigation" aria-label="Main navigation">
-  <a href="index.html" class="nav-logo">🧠 <em>Mind</em>Ease</a>
-  <div class="nav-links" id="nav-links" role="menubar">
-    <a href="index.html" class="nav-link active" role="menuitem">Home</a>
-    <a href="blog/index.html" class="nav-link" role="menuitem">Blog</a>
-    <a href="faq.html" class="nav-link" role="menuitem">FAQ</a>
-    <a href="about.html" class="nav-link" role="menuitem">About</a>
-    <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
+  <a href="../index.html" class="nav-logo">🧠 <em>Mind</em>Ease</a>
+  <div class="nav-links" id="nav-links">
+    <a href="../index.html" class="nav-link">Home</a>
+    <a href="index.html" class="nav-link active">Blog</a>
+    <a href="../faq.html" class="nav-link">FAQ</a>
+    <a href="../about.html" class="nav-link">About</a>
+    <a href="../contact.html" class="nav-link">Contact</a>
     <button id="theme-btn" class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">🌙</button>
   </div>
-  <button class="hamburger" onclick="toggleNav()" aria-label="Open navigation menu" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
+  <button class="hamburger" onclick="toggleNav()" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </nav>
 <main id="main">
-
-<!-- HERO -->
-<section class="hero" aria-labelledby="hero-h1">
-  <div class="hero-badge">🌿 Free Educational Resource · 31 Languages · No Fake Stats</div>
-  <h1 id="hero-h1">Understanding mental health starts with <em>the right information</em></h1>
-  <p>Evidence-based educational content on anxiety, depression, bipolar disorder, PTSD and more — written clearly, available in your language, always free.</p>
-  <div class="hero-btns">
-    <a href="blog/index.html" class="btn btn-primary">Explore Articles</a>
-    <a href="faq.html" class="btn btn-outline">Common Questions</a>
-  </div>
-</section>
-
-<!-- DISCLAIMER -->
-<div class="container">
-  <div class="disclaimer" role="note" aria-label="Medical disclaimer">
+<div class="section">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Home</a><span class="sep">/</span><span class="current">Blog</span>
+  </nav>
+  <h1 class="section-title">Mental Health Blog</h1>
+  <p class="section-sub">Evidence-based educational articles on mental wellness, therapy techniques, and psychological health — no fake statistics, no paid promotions.</p>
+  <div class="disclaimer" role="note">
     <span class="icon">⚠️</span>
-    <span><strong>Medical Disclaimer:</strong> This website is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. If you are experiencing a mental health crisis, contact emergency services or a crisis line immediately. Pakistan: Umang 0311-7786264 · USA: 988 · UK: 116 123.</span>
+    <span><strong>Educational content only.</strong> These articles are for informational purposes and do not constitute medical advice. Always consult a qualified mental health professional for personal guidance.</span>
   </div>
-</div>
 
-<!-- TOPICS -->
-<section class="section" aria-labelledby="topics-h2">
-  <h2 id="topics-h2" class="section-title">Explore mental health topics</h2>
-  <p class="section-sub">Evidence-based education on the most common mental health conditions — no fake statistics, no paid promotions.</p>
-  <div class="grid grid-4">
-    <a href="blog/anxiety-disorder.html" class="topic-card"><div class="icon">😰</div><h3>Anxiety</h3><p>Types, causes, symptoms & coping</p></a>
-    <a href="blog/depression-symptoms.html" class="topic-card"><div class="icon">😔</div><h3>Depression</h3><p>Signs, symptoms & when to seek help</p></a>
-    <a href="blog/stress-management.html" class="topic-card"><div class="icon">🔥</div><h3>Stress</h3><p>Natural stress reduction strategies</p></a>
-    <a href="blog/mindfulness-for-beginners.html" class="topic-card"><div class="icon">🧘</div><h3>Mindfulness</h3><p>Beginner-friendly meditation guides</p></a>
-    <a href="blog/signs-of-burnout.html" class="topic-card"><div class="icon">💼</div><h3>Burnout</h3><p>Warning signs & recovery steps</p></a>
-    <a href="blog/improve-sleep-quality.html" class="topic-card"><div class="icon">🌙</div><h3>Sleep</h3><p>Science-backed sleep improvement</p></a>
-    <a href="blog/cbt-techniques-anxiety.html" class="topic-card"><div class="icon">🧠</div><h3>CBT</h3><p>Cognitive behavioral therapy techniques</p></a>
-    <a href="blog/when-to-see-a-therapist.html" class="topic-card"><div class="icon">🤝</div><h3>Therapy</h3><p>When & how to seek professional help</p></a>
+  <!-- Search -->
+  <div class="search-wrap" style="max-width:520px;margin:28px 0">
+    <input type="search" id="blog-search" class="search-input" placeholder="Search articles — e.g. anxiety, sleep, CBT..." aria-label="Search blog articles">
+    <span class="search-icon">🔍</span>
   </div>
-</section>
+  <div id="search-results"></div>
 
-<!-- BLOG PREVIEW -->
-<section class="section" style="padding-top:0" aria-labelledby="blog-h2">
-  <h2 id="blog-h2" class="section-title">Latest articles</h2>
-  <p class="section-sub">Educational content aligned with Google EEAT principles — no exaggerated claims, no fake testimonials.</p>
-  <div class="grid grid-3">
+  <!-- Articles grid -->
+  <div class="grid grid-3" id="blog-grid">
+
     <article class="blog-card">
       <div class="blog-thumb">😰</div>
       <div class="blog-body">
         <div class="blog-cat">Anxiety</div>
-        <h3><a href="blog/anxiety-disorder.html">What is Anxiety Disorder?</a></h3>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="anxiety-disorder.html">What is Anxiety Disorder?</a></h2>
         <p class="blog-excerpt">Understanding the different types of anxiety disorders, their causes, symptoms and evidence-based treatment approaches.</p>
         <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 7 min read</span></div>
       </div>
     </article>
+
     <article class="blog-card">
       <div class="blog-thumb">😔</div>
       <div class="blog-body">
         <div class="blog-cat">Depression</div>
-        <h3><a href="blog/depression-symptoms.html">Symptoms of Depression</a></h3>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="depression-symptoms.html">Symptoms of Depression</a></h2>
         <p class="blog-excerpt">A comprehensive guide to recognizing the signs of clinical depression and understanding when to seek professional help.</p>
         <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 8 min read</span></div>
       </div>
     </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">🌿</div>
+      <div class="blog-body">
+        <div class="blog-cat">Stress</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="stress-management.html">How to Reduce Stress Naturally</a></h2>
+        <p class="blog-excerpt">Evidence-based natural strategies to manage and reduce stress in everyday life — without medication.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 6 min read</span></div>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">⚡</div>
+      <div class="blog-body">
+        <div class="blog-cat">Anxiety</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="panic-attack-vs-anxiety-attack.html">Panic Attack vs Anxiety Attack</a></h2>
+        <p class="blog-excerpt">Understanding the key differences between panic attacks and anxiety attacks — symptoms, triggers and how to respond.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 6 min read</span></div>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">🧠</div>
+      <div class="blog-body">
+        <div class="blog-cat">Therapy</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="cbt-techniques-anxiety.html">CBT Techniques for Anxiety</a></h2>
+        <p class="blog-excerpt">How Cognitive Behavioral Therapy techniques help manage anxiety disorders, with practical exercises you can try today.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 9 min read</span></div>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">🌙</div>
+      <div class="blog-body">
+        <div class="blog-cat">Sleep</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="improve-sleep-quality.html">How to Improve Sleep Quality</a></h2>
+        <p class="blog-excerpt">Science-backed tips and habits to improve the quality of your sleep and overcome common sleep problems.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 7 min read</span></div>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">🔥</div>
+      <div class="blog-body">
+        <div class="blog-cat">Burnout</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="signs-of-burnout.html">Signs of Burnout</a></h2>
+        <p class="blog-excerpt">How to recognize the warning signs of burnout before it becomes a serious health crisis, and what to do about it.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 6 min read</span></div>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <div class="blog-thumb">👥</div>
+      <div class="blog-body">
+        <div class="blog-cat">Anxiety</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="social-anxiety-symptoms.html">Social Anxiety Symptoms</a></h2>
+        <p class="blog-excerpt">Identifying and understanding social anxiety disorder — how it affects daily life and what evidence-based help is available.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 7 min read</span></div>
+      </div>
+    </article>
+
     <article class="blog-card">
       <div class="blog-thumb">🧘</div>
       <div class="blog-body">
         <div class="blog-cat">Mindfulness</div>
-        <h3><a href="blog/mindfulness-for-beginners.html">Mindfulness for Beginners</a></h3>
-        <p class="blog-excerpt">A practical step-by-step guide to starting your mindfulness practice — no experience required.</p>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="mindfulness-for-beginners.html">Mindfulness for Beginners</a></h2>
+        <p class="blog-excerpt">A practical, step-by-step guide to starting your mindfulness practice — no experience or equipment required.</p>
         <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 6 min read</span></div>
       </div>
     </article>
-  </div>
-  <div class="text-center mt-32">
-    <a href="blog/index.html" class="btn btn-primary">View all 10 articles →</a>
-  </div>
-</section>
 
-<!-- NEWSLETTER -->
-<section class="section" style="padding-top:0">
-  <div class="newsletter">
-    <h2>Stay informed about mental health</h2>
-    <p>Get evidence-based articles and practical wellness tips — no spam, unsubscribe anytime.</p>
-    <form class="nl-form" onsubmit="handleNewsletter(event,'nl-home-ok')">
+    <article class="blog-card">
+      <div class="blog-thumb">🤝</div>
+      <div class="blog-body">
+        <div class="blog-cat">Therapy</div>
+        <h2 style="font-size:17px;font-family:var(--font-h)"><a href="when-to-see-a-therapist.html">When Should You See a Therapist?</a></h2>
+        <p class="blog-excerpt">Signs that it may be time to seek professional mental health support, and practical guidance on how to find the right therapist.</p>
+        <div class="blog-meta"><span>📅 Jan 2025</span><span>⏱ 7 min read</span></div>
+      </div>
+    </article>
+
+  </div><!-- /grid -->
+
+  <!-- Newsletter -->
+  <div class="newsletter" style="margin-top:56px">
+    <h2>Get mental health insights in your inbox</h2>
+    <p>Weekly evidence-based articles — free, no spam, unsubscribe anytime.</p>
+    <form class="nl-form" onsubmit="handleNewsletter(event,'nl-blog-ok')">
       <input type="email" class="nl-input" placeholder="your@email.com" required aria-label="Email address">
       <button type="submit" class="nl-btn">Subscribe</button>
     </form>
-    <p id="nl-home-ok" class="nl-ok"></p>
+    <p id="nl-blog-ok" class="nl-ok"></p>
     <p style="color:rgba(255,255,255,.3);font-size:12px;margin-top:14px">Educational content only · Not medical advice · Unsubscribe anytime</p>
   </div>
-</section>
 
-<!-- TRUST -->
-<section class="section" style="padding-top:0" aria-label="Why trust MindEase">
-  <h2 class="section-title text-center">Built on trust & transparency</h2>
-  <div class="grid grid-3" style="margin-top:32px">
-    <div class="card trust-card"><div class="t-icon">📚</div><h3>Evidence-based content</h3><p>All articles reference peer-reviewed research and established guidelines from WHO, APA and NIH.</p></div>
-    <div class="card trust-card"><div class="t-icon">🚫</div><h3>No fake statistics</h3><p>We never fabricate user numbers, patient counts or session statistics. Every claim is verifiable or clearly educational.</p></div>
-    <div class="card trust-card"><div class="t-icon">⚕️</div><h3>Clear disclaimers</h3><p>Every page clearly states our content is educational. We always encourage readers to seek professional help when needed.</p></div>
-  </div>
-</section>
-
+</div>
 </main>
 <footer class="footer" role="contentinfo">
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <span class="f-logo">🧠 <em>Mind</em>Ease</span>
-      <p>A free educational mental health resource covering anxiety, depression, PTSD, OCD and more — available in 31 languages worldwide.</p>
-      <p style="margin-top:12px;font-size:12px;color:rgba(255,255,255,.3)">⚠️ Educational content only. Not a substitute for professional medical advice.</p>
-    </div>
-    <div><h4>Resources</h4><ul class="footer-links"><li><a href="blog/index.html">All Articles</a></li><li><a href="blog/anxiety-disorder.html">Anxiety</a></li><li><a href="blog/depression-symptoms.html">Depression</a></li><li><a href="blog/stress-management.html">Stress</a></li><li><a href="blog/mindfulness-for-beginners.html">Mindfulness</a></li></ul></div>
-    <div><h4>Company</h4><ul class="footer-links"><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
-    <div><h4>Legal</h4><ul class="footer-links"><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="disclaimer.html">Disclaimer</a></li><li><a href="sitemap.xml">Sitemap</a></li></ul>
-    <h4 style="margin-top:20px">Crisis Lines</h4>
-    <ul class="footer-links"><li><span style="color:rgba(255,255,255,.45);font-size:13px">🇵🇰 Umang: 0311-7786264</span></li><li><span style="color:rgba(255,255,255,.45);font-size:13px">🇺🇸 988 (USA)</span></li><li><span style="color:rgba(255,255,255,.45);font-size:13px">🇬🇧 116 123 (UK)</span></li><li><a href="https://findahelpline.com" target="_blank" rel="noopener">findahelpline.com</a></li></ul></div>
-  </div>
-  <div class="footer-bottom">
-    <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="sitemap.xml">Sitemap</a>
+  <div class="footer-bottom" style="max-width:1100px;margin:0 auto">
+    <a href="../index.html">Home</a><a href="../about.html">About</a>
+    <a href="../privacy.html">Privacy</a><a href="../terms.html">Terms</a><a href="../disclaimer.html">Disclaimer</a>
     <p style="margin-top:10px">© 2025 MindEase. All rights reserved.</p>
     <p class="founder-note">Founded and created by Abdul Ghani · Educational resource · Not a medical service</p>
   </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
