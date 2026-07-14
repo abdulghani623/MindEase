@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact MindEase | Mental Health Education Platform</title>
+<meta name="description" content="Get in touch with MindEase. For content feedback, corrections, or partnership enquiries. Note: we are not a crisis service — for emergencies contact 988 (USA) or your local helpline.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.mindease.app/contact.html">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg"><meta name="theme-color" content="#0D1B2A">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="progress-bar" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="navbar" role="navigation">
+  <a href="index.html" class="nav-logo">🧠 <em>Mind</em>Ease</a>
+  <div class="nav-links" id="nav-links">
+    <a href="index.html" class="nav-link">Home</a><a href="blog/index.html" class="nav-link">Blog</a>
+    <a href="faq.html" class="nav-link">FAQ</a><a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link active">Contact</a>
+    <button id="theme-btn" class="icon-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">🌙</button>
+  </div>
+  <button class="hamburger" onclick="toggleNav()" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<main id="main">
+<div class="content-wrap">
+  <nav class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span class="current">Contact</span></nav>
+  <h1>Contact Us</h1>
+  <p class="lead">We welcome feedback, content corrections, and partnership enquiries. Please note that MindEase is an educational resource — we are not a crisis service.</p>
+
+  <div class="crisis-box">
+    <strong>🆘 In a mental health crisis? Please contact help immediately — not this form:</strong>
+    Pakistan: Umang 0311-7786264 · USA: 988 Suicide &amp; Crisis Lifeline · UK: Samaritans 116 123 · International: <a href="https://findahelpline.com" target="_blank" rel="noopener">findahelpline.com</a>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:36px" class="contact-layout">
+    <div>
+      <h2>Send a message</h2>
+      <form id="contact-form" onsubmit="handleContact(event)" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="c-name">Full Name <span aria-hidden="true">*</span></label>
+          <input class="form-input" type="text" id="c-name" name="name" required placeholder="Your name" autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="c-email">Email Address <span aria-hidden="true">*</span></label>
+          <input class="form-input" type="email" id="c-email" name="email" required placeholder="your@email.com" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="c-subject">Subject <span aria-hidden="true">*</span></label>
+          <select class="form-select" id="c-subject" name="subject" required>
+            <option value="">Select a topic</option>
+            <option>Content feedback or correction</option>
+            <option>Partnership or collaboration</option>
+            <option>Media enquiry</option>
+            <option>Technical issue</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="c-msg">Message <span aria-hidden="true">*</span></label>
+          <textarea class="form-textarea" id="c-msg" name="message" required placeholder="How can we help?"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <div id="contact-ok" class="form-success">✅ Thank you for your message! We will respond within 2–3 business days.</div>
+      </form>
+    </div>
+    <div>
+      <h2>Other ways to reach us</h2>
+      <div class="contact-info-box">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div><h4>Email</h4><p>hello@mindease.app</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <div><h4>Website</h4><p>www.mindease.app</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⏱</div>
+          <div><h4>Response time</h4><p>2–3 business days</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div><h4>Founder</h4><p>Abdul Ghani</p></div>
+        </div>
+      </div>
+      <div class="disclaimer" style="margin-top:20px" role="note"><span class="icon">⚠️</span><span>This contact form is for editorial and partnership enquiries only. We cannot provide medical advice, diagnoses, or crisis support. Please contact a qualified mental health professional for personal support.</span></div>
+    </div>
+  </div>
+</div>
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="footer-bottom" style="max-width:1100px;margin:0 auto">
+    <a href="index.html">Home</a><a href="blog/index.html">Blog</a><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a>
+    <p style="margin-top:10px">© 2025 MindEase. Founded by Abdul Ghani.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<style>@media(max-width:640px){.contact-layout{grid-template-columns:1fr!important}}</style>
+</body></html>
